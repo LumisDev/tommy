@@ -1,0 +1,5 @@
+build-vs
+build-mingw
+build-unix
+build-mac
+.vscode
