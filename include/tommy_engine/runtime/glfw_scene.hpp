@@ -6,7 +6,7 @@
 
 class GLFWScene : public TommyScene {
     public:
-        GLFWScene(char* title, int width, int height, int isResized = GLFW_TRUE);
+        GLFWScene(char* title, int width, int height, int isResized = GLFW_TRUE, int isFullscreen = GLFW_FALSE);
         void init() override;
         void update() override;
         void crash() override;
