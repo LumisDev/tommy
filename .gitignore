@@ -3,3 +3,5 @@ build-mingw
 build-unix
 build-mac
 .vscode
+build
+.vs
