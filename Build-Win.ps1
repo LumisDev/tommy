@@ -14,7 +14,7 @@ function Build {
 }
 
 function Build-Altern {
-    param (
+    paraBruhm (
         [string]$genName
     )
     $folderName = "build"
