@@ -1,5 +1,4 @@
 @echo off
-title Build Script Menu
 
 :menu
 cls
@@ -36,9 +35,10 @@ if %~1=="mingw"(
 ) else if %~1=="vs" (
     cmake .. -G "Visual Studio 2019"
 )
-
+cd ..
 
 :build-altern
 mkdir "build" 2> nul
 cd build
 cmake .. -G %~1
+cd ..
